@@ -13,7 +13,7 @@ I use Ubuntu and so I often copy these files to ./local/bin and remove the exten
 
 lsdir
 
-I'm also including many of the bash aliases I use [here](./bashrc) since they're similar in spirit to many of these scripts, some of which could easily be rewritten as one-line aliases in a .bashrc file.
+I'm also including many of the bash aliases I use [here](./bashrc) since they're similar in spirit to many of these scripts, which could often be rewritten as one-line aliases in a .bashrc file.
 
 Disclaimer: many of these bash scripts were created with the assistance of ChatGPT, which excels at this kind of narrowly defined task.
 
