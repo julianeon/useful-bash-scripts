@@ -13,6 +13,8 @@ I use Ubuntu and so I often copy these files to ./local/bin and remove the exten
 
 lsdir
 
+I'm also including bash aliases I use [here](./bashrc) since they're similar in spirit to many of these scripts.
+
 Disclaimer: many of these bash scripts were created with the assistance of ChatGPT, which is very good for this kind of narrowly defined task.
 
 Here is a guide to what these files do.
