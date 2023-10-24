@@ -37,6 +37,8 @@ It will create a copy of test.py named test_1.py.
 
 ## create_image_white_text_on_blackground.sh
 
+![white text saying 'live yout life' against black background](./result.png)
+
 This script uses imagemagick to create an image of white text, small and centered, on a black background.
 
 Run like this:
