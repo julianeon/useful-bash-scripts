@@ -3,7 +3,7 @@
 
 This is a list of useful bash scripts I made, many of which I use on a daily basis.
 
-I have more than these, but they are unique to my situation (think appending a line to a specific file I often use in vim) and so aren't included.  
+I have more than these, but they are unique to my situation (think appending a line to a hardcoded file name) and so aren't included.  
 
 For the case of an example file named lsdir.sh, you can run them like this, after first making the file executable ("chmod +x lsdir.sh"):
 
@@ -15,7 +15,7 @@ lsdir
 
 I'm also including many of the bash aliases I use [here](./bashrc) since they're similar in spirit to many of these scripts, some of which could easily be rewritten as one-line aliases in a .bashrc file.
 
-Disclaimer: many of these bash scripts were created with the assistance of ChatGPT, which is very good for this kind of narrowly defined task.
+Disclaimer: many of these bash scripts were created with the assistance of ChatGPT, which excels at this kind of narrowly defined task.
 
 Here is a guide to what these files do.
 
