@@ -57,6 +57,8 @@ Run it like this:
 
 ./datecheck.sh 10-19-23
 
+It will tell all you all the files that were last modified on 10-19-23.
+
 ## downloaded_file_rename.sh
 
 This script is for when you've downloaded a file to ~/Downloads and it has a name like 393248092349809.jpg.
