@@ -23,7 +23,7 @@ Here is a guide to what these files do.
 
 This script counts the number of files in the current directory and prints the sum out.
 
-Run like this:
+Run it like this:
 
 ./countfiles.sh
 
@@ -46,6 +46,16 @@ This script uses imagemagick to create an image of white text, small and centere
 Run like this:
 
 ./create_image_white_text_on_black_backgroun.sh "Live your life."
+
+## datecheck.sh
+
+This script tells you all the files that were last modified on the date you provide. 
+
+If you want to know when you last worked on a file, if you give it the day in the format month-day-year, this script will tell you. (Note: only works if you haven't edited the file again since that day).
+
+Run it like this:
+
+./datecheck.sh 10-19-23
 
 ## downloaded_file_rename.sh
 
