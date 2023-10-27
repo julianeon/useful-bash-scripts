@@ -3,7 +3,7 @@
 
 This is a list of useful bash scripts I made, many of which I use on a daily basis.
 
-I have more than these, but they are unique to my situation (think appending a line to a hardcoded file name) and so aren't included.  
+I have more than these, but they are unique to my situation (think appending a line to a hardcoded file name) and so aren't included.
 
 For the case of an example file named lsdir.sh, you can run them like this, after first making the file executable ("chmod +x lsdir.sh"):
 
@@ -69,7 +69,6 @@ Run it like this, from within your ~/Downloads directory:
 
 It will rename 393248092349809.jpg to lake_geneva.jpg.
 
-
 ## lsdir.sh
 
 This script shows all directories in the current directory.
@@ -116,8 +115,16 @@ Run it like this:
 
 ## unixtime.sh
 
-This prints out the current unix time.
+This script prints out the current unix time.
 
 Run it like this:
 
-./unixtime
+./unixtime.sh
+
+## vimlast.sh
+
+This script opens the last modified file in vim. Useful if you use vim as your normal editor.
+
+Run it like this:
+
+./vimlast.sh
