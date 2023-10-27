@@ -80,7 +80,7 @@ Run it like this:
 
 ## lsdirfull.sh
 
-This script gives the full list of all directories and subdirectories in the current directory.
+This script gives the full list of all directories and subdirectories in the current directory. It's a lot more verbose than the version above.
 
 Run it like this: 
 
