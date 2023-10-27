@@ -15,7 +15,7 @@ lsdir
 
 I'm also including many of the bash aliases I use [here](./bashrc) since they're similar in spirit to many of these scripts, which could often be rewritten as one-line aliases in a .bashrc file.
 
-Disclaimer: many of these bash scripts were created with the assistance of ChatGPT, which excels at this kind of narrowly defined task.
+Disclaimer: many of these bash scripts were created with the assistance of ChatGPT, which excels at this type of narrowly defined task.
 
 Here is a guide to what these files do.
 
