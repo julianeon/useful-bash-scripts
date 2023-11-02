@@ -43,7 +43,7 @@ It will create a copy of test.py named test_1.py.
 
 This script uses imagemagick to create an image of white text, small and centered, on a black background.
 
-Run like this:
+Run it like this:
 
 ./create_image_white_text_on_black_backgroun.sh "Live your life."
 
