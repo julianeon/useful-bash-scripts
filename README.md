@@ -123,7 +123,7 @@ Run it like this:
 
 ## vimlast.sh
 
-This script opens the last modified file in vim. Useful if you use vim as your normal editor.
+This script opens the last modified file in vim. Useful if you use vim as your regular editor.
 
 Run it like this:
 
