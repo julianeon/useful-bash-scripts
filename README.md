@@ -97,7 +97,7 @@ Run it like this:
 
 This script is for warning you before you remove multiple files unknowingly.
 
-If you've ever run `rm text*` and accidentally removed 100 files instead of the expected 5 files, this helps prevent this, by telling you exactly how many files will be removed first.
+If you've ever run `rm text*` and accidentally removed 100 files instead of the expected 5 files, this helps prevent that, by telling you exactly how many files will be removed first.
 
 Run it like this, if for example you want to remove all files beginning with "text" in their filename:
 
