@@ -51,7 +51,7 @@ Run it like this:
 
 This script tells you all the files that were last modified on the date you provide. 
 
-If you want to know when you last worked on a file, if you give it the day in the format month-day-year, this script will tell you. (Note: only works if you haven't edited the file again since that day).
+If you want to know when you last worked on a file, if you give it the day in the format month-day-year, this script will tell you. 
 
 Run it like this:
 
@@ -97,7 +97,7 @@ Run it like this:
 
 This script is for warning you before you remove multiple files unknowingly.
 
-If you've ever run "rm text*" and accidentally removed 100 files instead of the expected 5 files, this helps prevent this, by telling you exactly how many files will be removed first.
+If you've ever run `rm text*` and accidentally removed 100 files instead of the expected 5 files, this helps prevent this, by telling you exactly how many files will be removed first.
 
 Run it like this, if for example you want to remove all files beginning with "text" in their filename:
 
