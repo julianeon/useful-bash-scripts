@@ -7,11 +7,11 @@ I have more than these, but they are unique to my situation (think appending a l
 
 For the case of an example file named lsdir.sh, you can run them like this, after first making the file executable ("chmod +x lsdir.sh"):
 
-./lsdir.sh
+`./lsdir.sh`
 
 I use Ubuntu and so I often copy these files to ./local/bin and remove the extension, so I can run them from the command line like this:
 
-lsdir
+`lsdir`
 
 I'm also including many of the bash aliases I use [here](./bashrc) since they're similar in spirit to many of these scripts, which could often be rewritten as one-line aliases in a .bashrc file.
 
@@ -25,7 +25,7 @@ This script counts the number of files in the current directory and prints the s
 
 Run it like this:
 
-./countfiles.sh
+`./countfiles.sh`
 
 ## cpone.sh
 
@@ -33,7 +33,7 @@ This is for one you have a file like test.py and you're never going to use it ag
 
 Run it like this:
 
-./cpone test.py
+`./cpone test.py`
 
 It will create a copy of test.py named test_1.py.
 
@@ -45,7 +45,7 @@ This script uses imagemagick to create an image of white text, small and centere
 
 Run it like this:
 
-./create_image_white_text_on_black_backgroun.sh "Live your life."
+`./create_image_white_text_on_black_backgroun.sh "Live your life."`
 
 ## datecheck.sh
 
@@ -55,7 +55,7 @@ If you want to know when you last worked on a file, if you give it the day in th
 
 Run it like this:
 
-./datecheck.sh 10-19-23
+`./datecheck.sh 10-19-23`
 
 It will tell all you all the files that were last modified on 10-19-23.
 
@@ -65,7 +65,7 @@ This script is for when you've downloaded a file to ~/Downloads and it has a nam
 
 Run it like this, from within your ~/Downloads directory:
 
-./downloaded_file_rename.sh "lake_geneva"
+`./downloaded_file_rename.sh "lake_geneva"`
 
 It will rename 393248092349809.jpg to lake_geneva.jpg.
 
@@ -75,7 +75,7 @@ This script shows all directories in the current directory.
 
 Run it like this:
 
-./lsdir.sh
+`./lsdir.sh`
 
 ## lsdirfull.sh
 
@@ -83,7 +83,7 @@ This script gives the full list of all directories and subdirectories in the cur
 
 Run it like this: 
 
-./lsdirfull.sh
+`./lsdirfull.sh`
 
 ## replacestring.sh
 
@@ -91,7 +91,7 @@ This script is for when you have a file like text.txt and you know you want to r
 
 Run it like this:
 
-./replacestring.sh "!" "."
+`./replacestring.sh "!" "."`
 
 ## rmsafe.sh
 
@@ -101,7 +101,7 @@ If you've ever run "rm text*" and accidentally removed 100 files instead of the 
 
 Run it like this, if for example you want to remove all files beginning with "text" in their filename:
 
-./rmsafe.sh text*
+`./rmsafe.sh text*`
 
 ## swapfiles.sh
 
@@ -111,7 +111,7 @@ It doesn't check the file extensions so it's up to you to make sure you don't sw
 
 Run it like this:
 
-./swapfiles.sh a.txt b.txt
+`./swapfiles.sh a.txt b.txt`
 
 ## unixtime.sh
 
@@ -119,7 +119,7 @@ This script prints out the current unix time.
 
 Run it like this:
 
-./unixtime.sh
+`./unixtime.sh`
 
 ## vimlast.sh
 
@@ -127,4 +127,4 @@ This script opens the last modified file in vim. Useful if you use vim as your n
 
 Run it like this:
 
-./vimlast.sh
+`./vimlast.sh`
