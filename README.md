@@ -121,6 +121,14 @@ Run it like this:
 
 `./unixtime.sh`
 
+## vimclipboard.sh
+
+This script uses the argument given as a filename, and copies the contents of the clipboard to that filename.
+
+Run it like this:
+
+`./vimclipboard.sh`
+
 ## vimlast.sh
 
 This script opens the last modified file in vim. Useful if you use vim as your regular editor.
