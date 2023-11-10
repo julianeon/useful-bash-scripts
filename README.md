@@ -59,6 +59,14 @@ Run it like this:
 
 It will tell all you all the files that were last modified on 10-19-23.
 
+## daydifference.sh
+
+This script finds the amount of days that have passed between the two days that you give it as arguments.
+
+Run it like this:
+
+`./daydifference.sh 092523 111023`
+
 ## downloaded_file_rename.sh
 
 This script is for when you've downloaded a file to ~/Downloads and it has a name like 393248092349809.jpg.
