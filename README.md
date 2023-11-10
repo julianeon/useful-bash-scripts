@@ -67,6 +67,8 @@ Run it like this:
 
 `./daydifference.sh 092523 111023`
 
+For this input the output would be '46 days'.
+
 ## downloaded_file_rename.sh
 
 This script is for when you've downloaded a file to ~/Downloads and it has a name like 393248092349809.jpg.
