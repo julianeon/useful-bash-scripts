@@ -61,7 +61,7 @@ It will tell all you all the files that were last modified on 10-19-23.
 
 ## daydifference.sh
 
-This script finds the amount of days that have passed between the two days that you give it as arguments.
+This script finds the number of days that have passed between the two days that you give it as arguments.
 
 Run it like this:
 
