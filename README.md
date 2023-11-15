@@ -123,6 +123,24 @@ Run it like this:
 
 `./swapfiles.sh a.txt b.txt`
 
+## surround_with_p_tags.sh
+
+This script takes a file as input and prints out each of its lines surrounded by p tags.
+
+It's meant for plain text files which you intend to upload as simple html pages.
+
+For example, a file with the name file.txt this line:
+
+Today is a nice day.
+
+Would be modified to this:
+
+<p>Today is a nice day.</p>
+
+Run it like this, for an example file.txt file:
+
+`./surround_with_p_tags.sh file.txt`
+
 ## unixtime.sh
 
 This script prints out the current unix time.
