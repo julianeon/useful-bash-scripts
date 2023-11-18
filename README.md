@@ -99,7 +99,7 @@ This script returns the size of the filename argument.
 
 Run it like this, to find the size of a file named file.txt:
 
-`./lsdir.sh file.txt`
+`./filesize.sh file.txt`
 
 ## lsdir.sh
 
