@@ -174,7 +174,7 @@ Run it like this:
 
 ## vimclipboard.sh
 
-This script uses the argument given as a filename, and copies the contents of the clipboard to that filename.
+This script uses the argument given as a filename, copies the contents of the clipboard to that filename, and then opens it in vim.
 
 Run it like this:
 
