@@ -176,9 +176,9 @@ Run it like this:
 
 This script uses the argument given as a filename, copies the contents of the clipboard to that filename, and then opens it in vim.
 
-Run it like this:
+Run it like this, for a filename named copy.txt:
 
-`./vimclipboard.sh`
+`./vimclipboard.sh copy.txt`
 
 ## vimlast.sh
 
