@@ -15,7 +15,7 @@ I use Ubuntu and so I often copy these files to ./local/bin and remove the exten
 
 I'm also including many of the bash aliases I use [here](./bashrc) since they're similar in spirit to many of these scripts, which could often be rewritten as one-line aliases in a .bashrc file.
 
-Disclaimer: many of these bash scripts were created with the assistance of ChatGPT, which excels at this type of narrowly defined task.
+Disclaimer: many of these scripts were created with the assistance of ChatGPT, which excels at this type of narrowly defined task.
 
 Here is a guide to what these files do.
 
@@ -41,7 +41,7 @@ This script will create a copy of test.py named test_1.py.
 
 This script is for copying the current file over from {name}.{file extension} to {name}_{next available version number}.{file extension}. If {name}_1.{file_extension} exists, it won't be overwritten.
 
-This means the script won't copy over the current filename into a filename with a version number that currently exists in the same directory. It will keep iterating on the version number until it finds a version number that isn't being used for a filename, and then copy the file over to it.
+This means the script won't copy over the current filename into a filename with a version number that currently exists in the same directory. It will keep iterating on the version number until it finds a version number that isn't being used for a filename, and then copy the file over to that filename.
 
 Run it like this:
 
@@ -49,13 +49,15 @@ Run it like this:
 
 This script will create a copy of test.py named test_1.py if test_1.py does not exist.
 
-If the directory already had a test.py, test_1.py, test_2.py, and test_3.py, it would create a copy of test.py named test_4.py.
+If the directory already has a test.py, test_1.py, test_2.py, and test_3.py, it would create a copy of test.py named test_4.py.
 
 ## create_image_white_text_on_blackground.sh
 
 ![white text saying 'live yout life' against black background](./result.png)
 
-This script uses imagemagick to create an image of white text, small and centered, on a black background.
+This script uses imagemagick, a software suite for working with images, to create an image of white text on a black background.
+
+To use this script you must have imagemagick installed.
 
 Run it like this:
 
