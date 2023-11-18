@@ -47,6 +47,8 @@ Run it like this:
 
 `./cpone test.py`
 
+This script will create a copy of test.py named test_1.py if test_1.py does not exist.
+
 If the directory already had a test.py, test_1.py, test_2.py, and test_3.py, it would create a copy of test.py named test_4.py.
 
 ## create_image_white_text_on_blackground.sh
