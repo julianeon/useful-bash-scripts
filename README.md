@@ -59,7 +59,7 @@ This script uses imagemagick to create an image of white text, small and centere
 
 Run it like this:
 
-`./create_image_white_text_on_black_backgroun.sh "Live your life."`
+`./create_image_white_text_on_black_background.sh "Live your life."`
 
 ## datecheck.sh
 
