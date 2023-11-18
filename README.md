@@ -29,13 +29,25 @@ Run it like this:
 
 ## cpone.sh
 
-This is for one you have a file like test.py and you're never going to use it again, so you don't want to check it into git, but you might want a copy of it before you make a destructive change.
+This is for copying the current file over from its current <name> to <name>_1.<file extension>.
 
 Run it like this:
 
 `./cpone test.py`
 
-It will create a copy of test.py named test_1.py.
+This script will create a copy of test.py named test_1.py.
+
+## cpversion.sh
+
+This script is for copying the current file over from its current <name> to <name>_<next available version number>.<file extension>.
+
+This means it won't copy over the current filename into a filename with a version number that currently exists. It will keep iterating on the version number until it finds a version number that isn't being used for a filename, and use it.
+
+Run it like this:
+
+`./cpone test.py`
+
+If the directory already had a test.py, test_1.py, test_2.py, and test_3.py, it would create a copy of test.py named test_4.py.
 
 ## create_image_white_text_on_blackground.sh
 
