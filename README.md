@@ -93,6 +93,14 @@ Run it like this, from within your ~/Downloads directory:
 
 It will rename 393248092349809.jpg to lake_geneva.jpg.
 
+## filesize.sh
+
+This script returns the size of the filename argument.
+
+Run it like this, to find the size of a file named file.txt:
+
+`./lsdir.sh file.txt`
+
 ## lsdir.sh
 
 This script shows all directories in the current directory.
