@@ -33,7 +33,7 @@ This is for copying the current file over from {name}.{file extension} to {name}
 
 Run it like this:
 
-`./cpone test.py`
+`./cpone.sh test.py`
 
 This script will create a copy of test.py named test_1.py.
 
