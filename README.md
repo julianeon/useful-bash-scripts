@@ -29,7 +29,7 @@ Run it like this:
 
 ## cpone.sh
 
-This is for copying the current file over from its current <name> to <name>_1.<file extension>.
+This is for copying the current file over from its current {name} to <name>_1.<file extension>.
 
 Run it like this:
 
