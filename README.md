@@ -45,7 +45,7 @@ This means the script won't copy over the current filename into a filename with 
 
 Run it like this:
 
-`./cpone test.py`
+`./cpversion.sh test.py`
 
 This script will create a copy of test.py named test_1.py if test_1.py does not exist.
 
