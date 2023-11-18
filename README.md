@@ -129,7 +129,7 @@ Run it like this:
 
 ## rmsafe.sh
 
-This script saves you from removing multiple files unknowingly. It tells you how many files it will remove and asks you to confirm before removing them, if there are more than 3 files to be removed.
+This script saves you from removing multiple files unknowingly. It tells you how many files it will remove and asks you to confirm before removing them, if the number of files is more than 3.
 
 If you've ever run `rm text*` and accidentally removed 100 files instead of the expected 5 files, this helps prevent that, by telling you exactly how many files will be removed first.
 
