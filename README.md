@@ -41,7 +41,7 @@ This script will create a copy of test.py named test_1.py.
 
 This script is for copying the current file over from {name}.{file extension} to {name}_{next available version number}.{file extension}. If {name}_1.{file_extension} exists, it won't be overwritten.
 
-This means it won't copy over the current filename into a filename with a version number that currently exists in the same directory. It will keep iterating on the version number until it finds a version number that isn't being used for a filename, and then use it.
+This means the script won't copy over the current filename into a filename with a version number that currently exists in the same directory. It will keep iterating on the version number until it finds a version number that isn't being used for a filename, and then copy the file over to it.
 
 Run it like this:
 
