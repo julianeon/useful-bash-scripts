@@ -29,7 +29,7 @@ Run it like this:
 
 ## cpone.sh
 
-This is for copying the current file over from {name}.{file extension} to {name}_1.{file extension}. If {name}_1.{file_extension} exists in the same directory, it is overwritten.
+This is for copying the current file over from {name}.{file extension} to {name}_1.{file extension}. If {name}_1.{file_extension} exists, it will be overwritten.
 
 Run it like this:
 
