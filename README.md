@@ -121,11 +121,11 @@ Run it like this:
 
 ## replacestring.sh
 
-This script is for when you have a file like text.txt and you know you want to replace all the "!" characters with ".".
+This script is for when you have a file like text.txt and you know you want to replace all of one character with another character: for example, replace every occurrence of the "?" character with the "!" character.
 
 Run it like this:
 
-`./replacestring.sh "!" "."`
+`./replacestring.sh "?" "!"`
 
 ## rmsafe.sh
 
