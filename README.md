@@ -29,7 +29,7 @@ Run it like this:
 
 ## cpone.sh
 
-This is for copying the current file over from its current {name} to <name>_1.<file extension>.
+This is for copying the current file over from {name}.{file extension} to {name}_1.{file extension}. If {name}_1.{file_extension} exists in the same directory, it is overwritten.
 
 Run it like this:
 
@@ -39,9 +39,9 @@ This script will create a copy of test.py named test_1.py.
 
 ## cpversion.sh
 
-This script is for copying the current file over from its current <name> to <name>_<next available version number>.<file extension>.
+This script is for copying the current file over from {name}.{file extension} to {name}_{next available version number}.{file extension}. If {name}_1.{file_extension} exists, it won't be overwritten.
 
-This means it won't copy over the current filename into a filename with a version number that currently exists. It will keep iterating on the version number until it finds a version number that isn't being used for a filename, and use it.
+This means it won't copy over the current filename into a filename with a version number that currently exists in the same directory. It will keep iterating on the version number until it finds a version number that isn't being used for a filename, and then use it.
 
 Run it like this:
 
