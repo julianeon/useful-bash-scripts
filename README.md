@@ -77,7 +77,7 @@ It will tell all you all the files that were last modified on 10-19-23.
 
 This script finds the number of days that have passed between the two days that you give it as arguments.
 
-Run it like this:
+Run it like this, to find the number of days that have passed between 9/25/23 and 11/10/23:
 
 `./daydifference.sh 092523 111023`
 
