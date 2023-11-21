@@ -19,6 +19,14 @@ Disclaimer: many of these scripts were created with the assistance of ChatGPT, w
 
 Here is a guide to what these files do.
 
+## clast.sh
+
+This script prints out the the contents of the last modified file in the current directory.
+
+Run it like this:
+
+`./clast.sh`
+
 ## countfiles.sh
 
 This script counts the number of files in the current directory and prints the sum out.
