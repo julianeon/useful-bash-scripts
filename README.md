@@ -131,6 +131,25 @@ Run it like this:
 
 `./lsdirfull.sh`
 
+## paragraph_tag_text.sh
+
+This script takes a file as input and prints out each of its lines surrounded by p tags.
+
+It's meant for plain text files which you intend to upload as simple html pages.
+
+For example, a file with the name file.txt this line:
+
+Today is a nice day.
+
+Would be modified to this:
+
+```<p>Today is a nice day.</p>```
+
+Run it like this, for an example file.txt file:
+
+`./surround_with_p_tags.sh file.txt`
+
+
 ## replacestring.sh
 
 This script is for when you have a file like text.txt and you know you want to replace all of one character with another character: for example, replace every occurrence of the "?" character with the "!" character.
@@ -158,25 +177,6 @@ It doesn't check the file extensions so it's up to you to make sure you don't sw
 Run it like this:
 
 `./swapfiles.sh a.txt b.txt`
-
-## surround_with_p_tags.sh
-
-This script takes a file as input and prints out each of its lines surrounded by p tags.
-
-It's meant for plain text files which you intend to upload as simple html pages.
-
-For example, a file with the name file.txt this line:
-
-Today is a nice day.
-
-
-Would be modified to this:
-
-```<p>Today is a nice day.</p>```
-
-Run it like this, for an example file.txt file:
-
-`./surround_with_p_tags.sh file.txt`
 
 ## unixtime.sh
 
